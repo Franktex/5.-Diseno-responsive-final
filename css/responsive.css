@@ -1,0 +1,196 @@
+@media screen and (max-width: 900px) {
+    header {
+        height: 250px;
+        background-position: 0px 0px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        position: sticky; 
+        top: 0;
+        left: 0;
+        bottom: 150px; 
+        height: 100vh;
+        background-color: #eb1128;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        z-index: 10;
+    }
+
+    .sidebar a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #17993d;
+    }
+
+    .sidebar a:hover {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #fff;
+    }
+
+    main {
+        background-color: #fafae9;;
+    }
+
+    .restaurant {
+        z-index: 1;
+        margin-top: -940px;
+        height: 1000px;
+    }
+
+    .descript {
+        font-size: 20px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .carta {
+        position: relative;
+        top: -935px;
+        height: 4950px;
+        margin-right: 0;
+        background-color: #fafae9;
+        z-index: 1;
+        
+    }
+
+    .carta h2 {
+        font-size: 15px;
+        color: #000;
+        text-shadow: none;
+    }
+
+    .carta h3 {
+        color: #000;
+        font-size: 21px;
+        text-shadow: none;
+    }
+
+    .carta p {
+        text-shadow: none;
+    }
+
+    .carta hr {
+        background-color: #000;
+    }
+
+    .carta div {
+        flex-direction: column;
+        background-color: #fafae9;
+    }
+
+    .carta img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .carta p {
+        font-size: 20px;
+        color: #000;
+    }
+
+    aside {
+        text-align: center;
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        background-color: #eee;
+        right: auto;
+        top: 1300px
+    }
+
+    aside h2 {
+        font-size: 35px;
+        padding-top: 0;
+        color: #000;
+        text-shadow: none;
+    }
+
+    aside form {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    aside .form-control {
+        padding: 2px;
+        width: 300px;
+        
+    }
+
+    .contacto {
+        display: flex;
+        justify-content: center;
+        margin-top: -935px;
+        height: 1850px;
+    }
+
+    .contacto .container {
+        position: relative;
+        bottom: 700px;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        padding-top: 500px;
+    }
+
+    .contacto h2 {
+        font-size: 15px;
+    }
+
+    .contacto h3 {
+        font-size: 19px;
+        margin-left: 55px;
+    }
+
+    .contacto p {
+        font-size: 20px;
+    }
+
+    .contacto form {
+        margin-bottom: 10px;
+    }
+
+    .contacto .otro {
+        width: 280px;
+    }
+
+    .contacto button {
+        padding: 3px;
+    }
+
+    footer {
+        height: 80px;
+        padding: 50px;
+        font-size: 18px;
+        justify-content: space-evenly;
+    }
+
+    footer .logotipo {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .copy {
+        margin-left: 25px;
+    }
+
+    .redes {
+        justify-content: space-evenly;
+    }
+
+    .redes svg {
+        width: 20px;
+        height: 20px;
+    }
+}
